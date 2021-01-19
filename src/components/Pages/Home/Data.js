@@ -6,7 +6,7 @@ export const homeObjUno = {
   headline: 'Software Developer',
   buttonLabel: 'Portfolio',
   imgStart: '',
-  img: '/public/images/holder.png',
+  img: 'images/holder.png',
   alt: 'logo',
   name: "Chloe Allen",
   occupation: "software developer",
