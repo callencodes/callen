@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './Hero.css'
 
 function Hero({
-  lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, src, alt, imgStart
+  lightBg, topLine, lightText, lightTextDesc, headline, preference, education, languages, buttonLabel, src, alt, imgStart
 }) {
   return (
     <>
@@ -17,9 +17,9 @@ function Hero({
             <div className='home_hero-text-wrapper'>
               <div className='top-line'>{topLine}</div>
               <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-              <p className={lightTextDesc ? 'home_hero-subtitle' : 'home_hero-subtitle dark'}>{description}</p>
+              <p className={lightTextDesc ? 'home_hero-subtitle' : 'home_hero-subtitle dark'}>I recently graduated with a {education}. I am a {preference} developer with experience in {languages}.</p>
               <Link to='/portfolio'>
-                <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                <Button buttonSize='btn--large' buttonColor='green'>{buttonLabel}</Button>
               </Link>
             </div>
           </div>

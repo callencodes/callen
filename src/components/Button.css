@@ -9,6 +9,7 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  margin: 8px;
 }
 
 .btn--primary {
@@ -72,7 +73,7 @@
 }
 
 .red {
-  background-color: #f00946;
+  background-color: #721717;
   color: #fff;
   border: none;
 }
@@ -90,7 +91,7 @@
 }
 
 .green {
-  background-color: #25ce4a;
+  background-color: #08c96b;
   color: #fff;
   border: none;
 }

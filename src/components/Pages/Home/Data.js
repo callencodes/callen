@@ -2,36 +2,16 @@ export const homeObjUno = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '',
-  headline: 'Software Developer',
+  topLine: 'Software Developer',
+  headline: 'Hi, I\'m Chloe Allen',
   buttonLabel: 'Portfolio',
   imgStart: '',
-  img: 'images/holder.png',
-  alt: 'logo',
+  src: 'images/holder.svg',
+  alt: 'obama',
   name: "Chloe Allen",
   occupation: "software developer",
   languages: "Python, Node.js, React, SQL",
   technologies: "AWS, Docker",
-  frameworks: "Django, Flask, Express",
-  description: "recently graduated university with a B.S",
-  email: "chloe@chloeallen.io",
-  country: "United States",
-  website: "http://www.chloeallen.io",
-  "social": [
-    {
-      "name": "linkedin",
-      "url": "www.linkedin.com/in/chloe-allen-596a64180",
-      "className": "fa fa-linkedin"
-    },
-    {
-      "name": "github",
-      "url": "http://github.com/callencodes",
-      "className": "fa fa-github"
-    },
-    {
-      "name": "twitter",
-      "url": "https://twitter.com/callencodes",
-      "className": "fa fa-twitter"
-    }
-  ]
+  education: "B.S in Information Technology",
+  preference: "full stack",
 }

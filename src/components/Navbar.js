@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-    <IconContext.Provider value={{ color: '#fff' }}>
+    <IconContext.Provider value={{ color: '#000' }}>
       <div className='navbar'>
         <div className='navbar-container container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -48,7 +48,12 @@ function Navbar() {
                 Portfolio
               </Link>
             </li>
-            <li className='nav-btn'>
+            <li className='nav-item'>
+              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                Contact
+              </Link>
+            </li>
+            {/* <li className='nav-btn'>
               {button ? (
                 <Link to='/contact' className='btn-link' onClick={closeMobileMenu}>
                   <Button buttonStyle='btn--outline'>
@@ -63,7 +68,7 @@ function Navbar() {
                   </Button>
                 </Link>
               )}
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
