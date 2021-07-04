@@ -8,7 +8,7 @@ export const contactObj = {
     {
       "name": "linkedin",
       "username": "Chloe Allen",
-      "url": "www.linkedin.com/in/chloe-allen-596a64180"
+      "url": "https://linkedin.com/in/chloe-allen-596a64180"
     },
     {
       "name": "twitter",

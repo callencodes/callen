@@ -7,7 +7,7 @@ import { GiBrain } from 'react-icons/gi'
 import { IconContext } from 'react-icons/lib'
 import './Portfolio.css'
 
-function Portfolio() {
+function Portfolio({projects}) {
   return (
     <IconContext.Provider value={{color: '#fff', size: 64}}>
     <div>
@@ -21,14 +21,18 @@ function Portfolio() {
                   <FaVuejs />
                 </div>
                 <h3>Completed</h3>
-                <h4>Ronswansays</h4>
+                <h4>{projects[0].name}</h4>
                 <p>Find out what Ron Swanson has to say</p>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Github
-                </Button>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Website
-                </Button>
+                <a href={projects[0].github} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Github
+                  </Button>
+                </a>
+                <a href={projects[0].url} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Website
+                  </Button>
+                </a>
               </div>
             </Link>
             <Link to="/portfolio" className="portfolio__container-card">

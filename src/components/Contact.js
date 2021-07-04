@@ -24,9 +24,11 @@ function Contact({
                 <h3>Twitter</h3>
                 <h4>@{social[1].username}</h4>
                 <p>Interact with me!</p>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Tweet
-                </Button>
+                <a href={social[1].url} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Tweet
+                  </Button>
+                </a>
               </div>
             </Link>
             <Link to="/contact" className="contact__container-card">
@@ -50,9 +52,11 @@ function Contact({
                 <h3>LinkedIn</h3>
                 <h4>{social[0].username}</h4>
                 <p>Connect with me!</p> 
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Connect
-                </Button>
+                <a href={social[0].url} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Connect
+                  </Button>
+                </a>
               </div>
             </Link>
           </div>
