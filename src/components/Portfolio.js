@@ -22,7 +22,7 @@ function Portfolio({projects}) {
                 </div>
                 <h3>Completed</h3>
                 <h4>{projects[0].name}</h4>
-                <p>Find out what Ron Swanson has to say</p>
+                <p>{projects[0].desc}</p>
                 <a href={projects[0].github} rel="noreferrer">
                   <Button buttonSize='btn--wide' buttonColor='primary'>
                     Github
@@ -41,14 +41,18 @@ function Portfolio({projects}) {
                   <RiFlutterFill />
                 </div>
                 <h3>In progress</h3>
-                <h4>Recipe App</h4>
-                <p>An app to manage your recipes</p>
-                <Button buttonSize='btn--wide' buttonColor='green'>
-                  Github
-                </Button>
-                <Button buttonSize='btn--wide' buttonColor='green'>
-                  Website
-                </Button>
+                <h4>{projects[1].name}</h4>
+                <p>{projects[1].desc}</p>
+                <a href={projects[1].github} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='green'>
+                    Github
+                  </Button>
+                </a>
+                <a href={projects[1].url} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='green'>
+                    Website
+                  </Button>
+                </a>
               </div>
             </Link>
             <Link to="/portfolio" className="portfolio__container-card">
@@ -57,14 +61,18 @@ function Portfolio({projects}) {
                   <GiBrain />
                 </div>
                 <h3>Up Next</h3>
-                <h4>Musicly</h4>
-                <p>A website to share music</p>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Github
-                </Button>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Website
-                </Button>
+                <h4>{projects[2].name}</h4>
+                <p>{projects[2].desc}</p>
+                <a href={projects[2].github} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Github
+                  </Button>
+                </a>
+                <a href={projects[2].url} rel="noreferrer">
+                  <Button buttonSize='btn--wide' buttonColor='primary'>
+                    Website
+                  </Button>
+                </a>
               </div>
             </Link>
           </div>

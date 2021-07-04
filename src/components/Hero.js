@@ -19,7 +19,7 @@ function Hero({
               <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
               <p className={lightTextDesc ? 'home_hero-subtitle' : 'home_hero-subtitle dark'}>I recently graduated with a {education}. I am a {preference} developer with experience in {languages}.</p>
               <Link to='/portfolio'>
-                <Button buttonSize='btn--large' buttonColor='green'>{buttonLabel}</Button>
+                <Button buttonSize='btn--wide' buttonColor='green'>{buttonLabel}</Button>
               </Link>
             </div>
           </div>
