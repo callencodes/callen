@@ -2,7 +2,7 @@ import React from 'react'
 import {portfolioObj} from './Data'
 import Portfolio from '../../Portfolio'
 
-function Home() {
+function Folio() {
   return (
     <>
       <Portfolio {...portfolioObj}></Portfolio>
@@ -10,4 +10,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Folio
