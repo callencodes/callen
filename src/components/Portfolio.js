@@ -48,11 +48,11 @@ function Portfolio({projects}) {
                     Github
                   </Button>
                 </a>
-                <a href={projects[1].url} rel="noreferrer">
+                {/* <a href={projects[1].url} rel="noreferrer">
                   <Button buttonSize='btn--wide' buttonColor='green'>
                     Website
                   </Button>
-                </a>
+                </a> */}
               </div>
             </Link>
             <Link to="/portfolio" className="portfolio__container-card">
@@ -63,16 +63,16 @@ function Portfolio({projects}) {
                 <h3>Up Next</h3>
                 <h4>{projects[2].name}</h4>
                 <p>{projects[2].desc}</p>
-                <a href={projects[2].github} rel="noreferrer">
+                {/* <a href={projects[2].github} rel="noreferrer">
                   <Button buttonSize='btn--wide' buttonColor='primary'>
                     Github
                   </Button>
-                </a>
-                <a href={projects[2].url} rel="noreferrer">
+                </a> */}
+                {/* <a href={projects[2].url} rel="noreferrer">
                   <Button buttonSize='btn--wide' buttonColor='primary'>
                     Website
                   </Button>
-                </a>
+                </a> */}
               </div>
             </Link>
           </div>

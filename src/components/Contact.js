@@ -24,11 +24,11 @@ function Contact({
                 <h3>Twitter</h3>
                 <h4>@{social[1].username}</h4>
                 <p>Interact with me!</p>
-                <a href={social[1].url} rel="noreferrer">
+                <Link to='/contact'>
                   <Button buttonSize='btn--wide' buttonColor='primary'>
                     Tweet
                   </Button>
-                </a>
+                </Link>
               </div>
             </Link>
             <Link to="/contact" className="contact__container-card">
